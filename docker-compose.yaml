@@ -1,0 +1,10 @@
+version: "3.12"
+services:
+    notebook:
+        container_name: ${PROJECT_NAME}-jupyter
+        build: ./notebook
+        command: sh run-jupyter.sh
+        volumes:
+            - ./notebook:/jupyter
+        ports:
+            - 8888:8888
