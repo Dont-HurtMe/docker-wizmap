@@ -1,7 +1,7 @@
 ## Terminal
 ```
 git clone https://github.com/Dont-HurtMe/docker-wizmap.git
-cd docker-ml
+cd docker-wizmap
 docker compose up --build
 ```
 
